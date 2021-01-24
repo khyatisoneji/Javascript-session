@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title> TodoList App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Todo App</header>
+      <div class="inputField">
+	<input type="text" placeholder="Add your new todo-task"</input>
+	<button onclick="newTask()">+</button>
+      </div>
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li><input type="checkbox"><label>Go to gym</label><button class="del" onClick="delTask()">X</button></li> 
+      </ul>
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li><input type="checkbox" checked><label>Prepare Presentation</label><button class="del" onClick="delTask()">X</button></li>
+      </ul>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>  
