@@ -11,5 +11,6 @@ To-do app can:
 2. Mark tasks as done
 3. Delete tasks
 
-To-do App
+**To-do App:**
+
 ![To-do App Screenshot](images/to-do.png)
